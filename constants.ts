@@ -1,49 +1,6 @@
 // Fichier: constants.ts
 // Base de connaissances pour le projet "Guide du Jardinier Débutant".
 
-export const KNOWLEDGE_BASE_CONTEXT = `
-# Base de Connaissances : Le Guide du Jardinier Débutant
-
-## 1. Introduction
-Bienvenue dans le guide du jardinier débutant ! Ce document a pour but de vous aider à démarrer votre premier potager, que ce soit sur un balcon ou dans un petit jardin. L'objectif est d'éviter les erreurs communes et de vous donner les clés pour réussir vos premières récoltes.
-
-## 2. Les Principes de Base du Jardinage
-Pour réussir, trois éléments sont essentiels : le soleil, l'eau et la terre.
-- **Soleil :** La plupart des légumes (tomates, courgettes, poivrons) ont besoin d'au moins 6 à 8 heures de soleil direct par jour. Si vous avez moins de soleil, privilégiez les salades, les épinards ou les radis.
-- **Eau :** L'arrosage doit être régulier mais pas excessif. Le meilleur indicateur est la terre : touchez-la. Si elle est sèche sur 2-3 cm de profondeur, il est temps d'arroser. Arrosez de préférence le matin ou le soir pour éviter l'évaporation. Ne mouillez pas les feuilles pour éviter les maladies.
-- **Terre :** Utilisez un terreau de bonne qualité, riche en nutriments. Pour la culture en pots, choisissez un "terreau pour potager". Un bon drainage est crucial : assurez-vous que vos pots ont des trous au fond.
-
-## 3. Les 3 Légumes les Plus Faciles pour Commencer
-### a) Les Tomates Cerises
-- **Quand planter :** Au printemps, après les dernières gelées (avril-mai).
-- **Exposition :** Plein soleil.
-- **Arrosage :** Régulier. Le sol doit rester frais mais jamais détrempé. Arrosez au pied de la plante.
-- **Conseil :** Plantez-les dans un pot d'au moins 30 cm de diamètre. Installez un tuteur dès la plantation pour soutenir la plante.
-
-### b) Les Radis
-- **Quand planter :** Du printemps à la fin de l'été.
-- **Exposition :** Soleil ou mi-ombre.
-- **Arrosage :** Très régulier. Le sol doit toujours être humide, sinon les radis deviennent piquants.
-- **Récolte :** Très rapide ! Environ 3 à 4 semaines après le semis. Récoltez-les dès qu'ils sont formés.
-- **Conseil :** C'est le légume le plus rapide à pousser, idéal pour les enfants et les impatients.
-
-### c) La Laitue à couper
-- **Quand planter :** Printemps et automne. Elle n'aime pas les fortes chaleurs.
-- **Exposition :** Mi-ombre.
-- **Arrosage :** Régulier pour garder le sol frais.
-- **Récolte :** Au fur et à mesure de vos besoins. Coupez les feuilles extérieures, le cœur de la plante en produira de nouvelles.
-- **Conseil :** Parfait pour la culture en jardinière sur un balcon.
-
-## 4. FAQ - Questions Fréquentes
-- **Q : J'ai des petits insectes verts sur mes plantes, que faire ?**
-  - R : Ce sont probablement des pucerons. Une solution écologique est de pulvériser un mélange d'eau et de savon noir (1 cuillère à soupe de savon pour 1 litre d'eau).
-- **Q : Mes feuilles de tomates jaunissent, pourquoi ?**
-  - R : Cela peut être dû à un arrosage excessif ou un manque de nutriments. Assurez-vous que le pot est bien drainé et espacez les arrosages. Vous pouvez ajouter un peu d'engrais pour plantes potagères.
-- **Q : Ai-je besoin de beaucoup d'outils pour commencer ?**
-  - R : Non, pour débuter, une petite pelle (transplantoir), un arrosoir et une bonne paire de gants suffisent amplement.
-`;
-
-
 export type Plant = {
   emoji: string;
   name: string;

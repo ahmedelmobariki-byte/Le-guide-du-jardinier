@@ -114,9 +114,9 @@ const SeasonalView: React.FC<{ onNavigateToDetail: (plant: Plant) => void, onGoB
   const [selectedSeason, setSelectedSeason] = useState<Season | null>(null);
   const seasons: { id: Season; name: string; image: string }[] = [
     { id: 'spring', name: 'Printemps', image: 'https://images.unsplash.com/photo-1490750967868-88aa4486c946?q=80&w=2070&auto=format&fit=crop' },
-    { id: 'summer', name: 'Été', image: 'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=1980&auto=format&fit=crop' },
+    { id: 'summer', name: 'Été', image: 'https://img.fotocommunity.com/ete-champtre-6e1b69b7-1d3d-4f95-bb79-33a1968ceaf7.jpg?height=1080' },
     { id: 'autumn', name: 'Automne', image: 'https://images.unsplash.com/photo-1476820865390-c52aeebb9891?q=80&w=2070&auto=format&fit=crop' },
-    { id: 'winter', name: 'Hiver', image: 'https://images.unsplash.com/photo-1482192505345-5655af888cc4?q=80&w=2128&auto=format&fit=crop' },
+    { id: 'winter', name: 'Hiver', image: 'https://static.positivr.fr/wp-content/uploads/2021/10/fleurs-hiver-planter-automne-7.jpeg' },
   ];
 
   return (
@@ -322,7 +322,7 @@ const App: React.FC = () => {
         }
     };
   
-    const backgroundImageUrl = "https://images.unsplash.com/photo-1444927714506-8492d94b4e3d?q=80&w=2070&auto=format&fit=crop";
+    const backgroundImageUrl = "https://rosehillflorist.flowermanager.net/wp-content/uploads/sites/44/2019/03/Primrose-1200x1200.jpg";
 
     return (
         <div className="min-h-screen flex flex-col font-sans bg-cover bg-center bg-fixed" style={{ backgroundImage: `url(${backgroundImageUrl})` }}>
